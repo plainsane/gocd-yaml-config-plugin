@@ -2,7 +2,6 @@ environments:
   env1:
     pipelines:
       - pipe1
-
 pipelines:
   pipe1:
     group: simple

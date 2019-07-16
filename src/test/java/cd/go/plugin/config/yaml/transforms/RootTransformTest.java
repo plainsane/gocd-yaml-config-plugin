@@ -83,7 +83,7 @@ public class RootTransformTest {
     }
 
     private JsonConfigCollection readRootYaml(String caseFile) throws IOException {
-        return rootTransform.transform(readYamlObject("parts/roots/" + caseFile + ".yaml"), "test code");
+        return rootTransform.transform(readYamlObject("parts/roots/" + caseFile + ".yaml"), "test code", null);
     }
 
     private void assertTargetVersion(JsonObject jsonObject, int expectedVersion) {
